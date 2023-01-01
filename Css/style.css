@@ -1,0 +1,49 @@
+/* css style */
+*{box-sizing: border-box;}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(32, 176, 181);
+    text-align: center;
+}
+
+.carousel {
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 600px;
+  height: 550px;
+  border: 20px solid #222;
+}
+
+.carousel .visable {
+  display: block;
+}
+
+.carousel-action {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 48%;
+  position: absolute;
+  top: 55%;
+  left: 26%;
+  transform: translateY(-50%);
+}
+
+button{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+footer{text-align: center;margin: 50px auto}
